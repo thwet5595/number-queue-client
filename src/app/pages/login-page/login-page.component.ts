@@ -47,11 +47,11 @@ export class LoginPageComponent implements OnInit {
               sessionStorage.setItem('REFRESH_TOKEN', res.refresh_token);
               sessionStorage.setItem('SESSIONID', res.sessionId);
               
-              this.alertService.success('Successfully Login.....');
+              this.alertService.success('Login Success.');
               this.router.navigateByUrl('/show-queue');
             },
             err => {
-                
+              this.alertService.error('Login Fail.Please try again!');
             })
   }
 }
