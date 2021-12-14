@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+@import "~ngx-toastr/toastr.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; background: #fff;}
+
+.cust_ToolBar{
+    background: #004384;
+    color: #fff;
+}
+
+.buttonColor{
+    background-color: #004384 !important;
+    color: #fff;
+}
+
+.footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0,0,0,.12);
+    padding: 10px;
+    text-align: center;
+    background-color: #0000001f !important;
+    transform: none;
+    visibility: visible;
+}
